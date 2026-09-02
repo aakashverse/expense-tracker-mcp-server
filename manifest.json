@@ -1,0 +1,21 @@
+{
+  "manifest_version": "0.4",
+  "name": "expense-tracker-mcp",
+  "display_name": "Expense Tracker",
+  "version": "1.0.0",
+  "description": "MCP server for managing expenses.",
+  "author": {
+    "name": "Akash Yadav"
+  },
+  "server": {
+    "type": "uv",
+    "entry_point": "main.py",
+    "mcp_config": {
+      "command": "uv",
+      "args": [
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
